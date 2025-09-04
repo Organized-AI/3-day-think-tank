@@ -2,20 +2,11 @@
   "name": "3-day-think-tank",
   "version": "1.0.0",
   "description": "3-Day Think Tank materials including AI opportunity identification presentation",
-  "main": "presentations/ai-identification-slidev.md",
   "scripts": {
     "dev": "slidev presentations/ai-identification-slidev.md",
     "build": "slidev build presentations/ai-identification-slidev.md --base /3-day-think-tank/",
     "export": "slidev export presentations/ai-identification-slidev.md"
   },
-  "keywords": [
-    "think-tank",
-    "ai",
-    "automation", 
-    "entrepreneurs",
-    "presentation",
-    "slidev"
-  ],
   "author": "Organized AI",
   "license": "MIT",
   "dependencies": {
