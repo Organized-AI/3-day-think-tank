@@ -5,7 +5,7 @@
   "main": "presentations/ai-identification-slidev.md",
   "scripts": {
     "dev": "slidev presentations/ai-identification-slidev.md",
-    "build": "slidev build presentations/ai-identification-slidev.md",
+    "build": "slidev build presentations/ai-identification-slidev.md --base /3-day-think-tank/",
     "export": "slidev export presentations/ai-identification-slidev.md"
   },
   "keywords": [
@@ -18,7 +18,7 @@
   ],
   "author": "Organized AI",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@slidev/cli": "^0.48.0",
     "@slidev/theme-default": "latest"
   },

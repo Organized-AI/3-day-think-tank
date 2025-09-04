@@ -3,8 +3,7 @@ name: Deploy SliDev to GitHub Pages
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -23,13 +22,15 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '18'
-        cache: 'npm'
 
     - name: Install dependencies
-      run: npm ci
+      run: npm install
 
     - name: Build SliDev
-      run: npm run build
+      run: |
+        npm run build
+        # Copy any static assets if needed
+        ls -la dist/
 
     - name: Setup Pages
       uses: actions/configure-pages@v4
