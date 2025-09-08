@@ -1,5 +1,6 @@
 ---
 theme: default
+color-schema: dark
 
 title: Identifying When to Use AI
 info: |
