@@ -13,14 +13,7 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
-style: |
-  .slidev-page:first-child .slidev-layout {
-    background: black;
-    color: white;
-  }
-  .slidev-page:not(:first-child) .slidev-layout {
-    color: #333;
-  }
+
 ---
 
 
