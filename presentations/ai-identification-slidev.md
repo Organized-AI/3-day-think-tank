@@ -1,6 +1,6 @@
 ---
 theme: default
-background: https://source.unsplash.com/1920x1080/?technology,ai
+
 title: Identifying When to Use AI
 info: |
   ## Identifying When to Use AI
