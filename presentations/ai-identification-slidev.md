@@ -7,7 +7,7 @@ info: |
   A framework for elite entrepreneurs to spot 7-figure AI opportunities
   
   Presented at 3-Day Think Tank
-class: text-center
+class: text-center dark
 highlighter: shiki
 drawings:
   persist: false
