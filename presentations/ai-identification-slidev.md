@@ -13,7 +13,22 @@ drawings:
   persist: false
 transition: slide-left
 mdc: true
+style: |
+  .slidev-page:first-child .slidev-layout {
+    background: black;
+    color: white;
+  }
+  .slidev-page:not(:first-child) .slidev-layout {
+    color: #333;
+  }
 ---
+
+
+
+<div class="text-center">
+  <h1 class="text-4xl font-bold">Organized AI</h1>
+  <p class="text-xl">3 Day Think Tank</p>
+</div>
 
 # Identifying When to Use AI
 
@@ -341,6 +356,11 @@ mdc: true
 
 </div>
 
+<div class="mt-8 p-4 bg-gradient-to-r from-yellow-100 to-orange-200 rounded-lg text-center">
+  <h3 class="text-xl font-bold">Shortcut the Roadmap with PROBLEM SOLVED! LIVE</h3>
+  <p class="mt-2">Get a working MVP in 24 hours. We handle the validation, design, and initial build, so you can go straight to scaling.</p>
+</div>
+
 ---
 
 # Key Takeaways
@@ -399,9 +419,14 @@ layout: end
 
 <div class="mt-8">
 Contact for AI Strategy Sessions:<br>
-<strong>[Your Contact Information]</strong>
+<strong>Jordaaan Hill</strong>
 </div>
 
 <div class="mt-8 text-sm opacity-75">
 Presentation materials and frameworks available for download
+</div>
+
+<div class="mt-8">
+Join us for our live event in Austin, TX!
+<a href="https://luma.com/hicvxihp" target="_blank">PROBLEM SOLVED! LIVE</a> is a 2-day event where business owners can get custom AI-powered solutions for their business challenges.
 </div>
