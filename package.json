@@ -4,7 +4,7 @@
   "description": "3-Day Think Tank materials including AI opportunity identification presentation",
   "scripts": {
     "dev": "slidev presentations/ai-identification-slidev.md",
-    "build": "slidev build presentations/ai-identification-slidev.md --base /3-day-think-tank/",
+    "build": "slidev build presentations/ai-identification-slidev.md --base /3-day-think-tank/ --out dist",
     "export": "slidev export presentations/ai-identification-slidev.md"
   },
   "author": "Organized AI",
