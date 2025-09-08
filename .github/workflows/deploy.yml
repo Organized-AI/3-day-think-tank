@@ -37,7 +37,7 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: List files
-        run: ls -la
+        run: ls -laR
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
